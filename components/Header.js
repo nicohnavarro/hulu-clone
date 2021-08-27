@@ -8,7 +8,7 @@ import {
   SearchIcon,
   UserIcon,
 } from "@heroicons/react/outline";
-
+import Img from '../public/hulu-white.png';
 export default function Header() {
   return (
     <header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
@@ -22,7 +22,7 @@ export default function Header() {
       </div>
       <Image
         className="object-contain"
-        src="/../public/hulu-white.png"
+        src={Img}
         alt="logo"
         width={200}
         height={100}
